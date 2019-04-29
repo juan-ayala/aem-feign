@@ -1,0 +1,14 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/list-items",
+        "basicAuth": {
+            "username": "bill",
+            "password": "lumbergh"
+        }
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "list-items.json"
+    }
+}

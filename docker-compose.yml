@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+    wiremock:
+        image: rodolpheche/wiremock:2.23.2-alpine
+        ports:
+            - 8080:8080
+        volumes:
+            - ./wiremock:/home/wiremock
