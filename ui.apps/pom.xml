@@ -72,6 +72,14 @@
             <type>content-package</type>
             <classifier>min</classifier>
         </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <resources>
@@ -128,6 +136,10 @@
                         <embedded>
                             <groupId>com.myco</groupId>
                             <artifactId>example-project.core</artifactId>
+                            <target>/apps/my-aem-project/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>io.github.openfeign</groupId>
                             <target>/apps/my-aem-project/install</target>
                         </embedded>
                     </embeddeds>
