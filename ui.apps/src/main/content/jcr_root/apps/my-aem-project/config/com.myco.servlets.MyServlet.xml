@@ -1,0 +1,5 @@
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    host="http://host.docker.internal:8080"
+    username="bill"
+    password="\{0a2b5f9936cd4429c312d33e1202af13298abce4a0d5d665cd13fe24ecc2f07d}"/>
